@@ -24,14 +24,14 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'No! not me. You.') {
+    if (message.content === 'No! not me, You') {
     	message.reply('Yes, I am You');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'Just answer the damn question! Who are you?') {
-    	message.reply('I have told you.');
+    	message.reply('I have told you');
   	}
 });
 
