@@ -54,13 +54,13 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'That is what I am asking you') 
+    if (message.content === 'That is what I am asking you') {
     	message.reply('And you is answering');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'You!') 
+    if (message.content === 'You!') {
     	message.reply('Yes?');
   	}
 });
