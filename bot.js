@@ -12,8 +12,8 @@ client.on("message", (message) => {
     message.channel.send("She is Mikan, I am You");
   } 
   else
-  if (message.content.startsWith(prefix + "")) {
-    message.channel.send("");
+  if (message.content.startsWith(prefix + "Riri")) {
+    message.channel.send("bakayou");
   }
 });
 
