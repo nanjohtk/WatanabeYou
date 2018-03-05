@@ -1,8 +1,20 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const prefix = "!";
 
 client.on('ready', () => {
     console.log('Bot is up and running!');
+});
+
+client.on("message", (message) => {
+  if (!message.content.startsWith(prefix)) return;
+  if (message.content.startsWith(prefix + "I am Mikan")) {
+    message.channel.send("She is Mikan, I am You");
+  } 
+  else
+  if (message.content.startsWith(prefix + "")) {
+    message.channel.send("");
+  }
 });
 
 client.on('message', message => {
