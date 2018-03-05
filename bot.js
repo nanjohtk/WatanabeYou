@@ -67,7 +67,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'I am Mikan') {
-    	message.reply('She is Mikan, I am You.');
+    	message.reply('She is Mikan, I am You');
   	}
 });
 
