@@ -17,5 +17,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Sorry, But I love You!!') {
+    	message.reply('Sorry, But I love Riko!!');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
